@@ -1,0 +1,31 @@
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  #navbar .logo {
+    margin-bottom: 0.5;
+    text-align: cemter;
+  }
+
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
+  #showcase .showcase-content {
+    top: 125px;
+  }
+
+  #who {
+    display: block;
+  }
+  #who .who-img {
+    display: none;
+  }
+  #contact {
+    flex-direction: column;
+  }
+  .m-heading {
+    font-size: 1.5rem;
+  }
+}
